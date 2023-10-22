@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal ZOo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id ='menu'>
+
+
+  <h1>Welcome to the zeeper project.</h1>
+  </header>
+  <div class="container">
+<form id ='animal-form'>
+<label for="name">Name</label>
+<input type="text" id="name" name="name"/>
+<label for="name">Image URL</label>
+<input type="text" id="image_url" name="image_url"/>
+<label for="description">Description</label>
+<textarea name="description" id="description"></textarea>
+<button type="submit">Adopt Animal</button>
+
+</form>
+
+<ul id="animal-list" class="cards">
+<li>
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Philippine_Pangolin_Curled-up_by_Gregg_Yan.jpg" alt="">
+<div class="content">
+<h4>penguine</h4>
+<p>
+  $<span class="donation-count">0</span> Donated
+</p>
+<p>They spend half of their life on earth  and half of their life on the sea</p>
+</div>
+<div class="buttons">
+<button id="donate">Donate $10</button>
+<button id="set-free">Set Free</button>
+</div>
+
+</li>
+</ul>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
